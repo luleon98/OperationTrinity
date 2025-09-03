@@ -1,10 +1,7 @@
-# Project Title
+# Grocery Checklist Project
 
 ## Overview
-Briefly describe the project in 2–3 sentences:  
-- What does it do?  
-- Why did you build it?  
-- Which AWS/cloud concepts or skills does it demonstrate?
+* The checklist will allow me to add, track, update, and delete a list of the groceries I need. I am building this for the sole reason to keep track of my grocery needs without having to go into my Notes app as I am tired of the basic Apple layout of its Notes. I will build this Checklist on AWS using different services, including: DynamoDB, API Gateway, Lambda, S3, Cloudfront, and Cognito. Maybe more.
 
 ## Screenshots / Demo
 *(Insert screenshots, demo links, or architecture diagrams here)*  
@@ -17,7 +14,7 @@ Add a simple description or diagram of how it works:
 *(Insert diagram here if possible)*  
 
 ## Tech Stack
-- AWS Services: S3, Lambda, DynamoDB, etc.  
+- AWS Services: DynamoDB, Lambda, IAM, API Gateway ... 
 - Languages: Python, JavaScript, etc.  
 - Tools/Frameworks: Terraform, Docker, React, etc.  
 
