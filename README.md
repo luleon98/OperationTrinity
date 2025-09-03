@@ -19,7 +19,8 @@ Add a simple description or diagram of how it works:
 - Tools/Frameworks: Terraform, Docker, React, etc.  
 
 ## Deployment / Setup
-There are two phases for this project. Phase 1 is the backend foundation and phase 2 is ***
+There are two phases for this project. Phase 1 is the backend foundation and phase 2 is frontend launch.
+
 1. Create a DynamoDB table and define a schema with a partition key and sort key. I set mine as userId and itemId, respectively. Both types will be strings.
 2. Explore table items and create an item with desired attributes. In this case, I used name (string), quantity (number) and checked (boolean).
 3. Create Lambda functions that will create items (POST), get items (GET), update items (PUT), and delete items (DELETE).
