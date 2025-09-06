@@ -1,14 +1,14 @@
 # Grocery Checklist Project
 
 ## Overview
-The Grocery Checklist is a web-based app to add, track, update, and delete grocery items. I built this to organize my grocery needs and as an alternative to the default Notes app on my iPhone. This project is fully hosted on AWS and leverages multiple services including DynamoDB, Lambda, API Gateway, Amplify, and IAM. The architecture demonstrates serverless CRUD operations in a production-like environment.
+This 90s Grocery Checklist is a web-based app to add, track, update, and delete grocery items. I built this to organize my grocery needs and as an alternative to the default Notes app on my iPhone. I also love retro vibes and the 90s so wanted to go for that kind of style. This project is fully hosted on AWS and leverages multiple services including DynamoDB, Lambda, API Gateway, Amplify, and IAM. The architecture demonstrates serverless CRUD operations in a production-like environment.
 
 ## Live Preview
 * [Live Site](https://dev.d3h7hp93k3ddbs.amplifyapp.com)
 
 ## Visual Preview
-* [Webb View](
-* [Mobile View](
+* [Webb View](checklist-web-screenshot.png)
+* [Mobile View](checklist-mobile-screenshot.jpeg)
 
 ## Architecture
 The app follows a serverless architecture: [Diagram](checklist-diagram.png)
