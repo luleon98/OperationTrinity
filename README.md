@@ -10,18 +10,13 @@ The Grocery Checklist is a web-based app to add, track, update, and delete groce
 * [Webb View](
 * [Mobile View](
 
-## Screenshots / Demo
-*(Insert screenshots, demo links, or architecture diagrams here)*  
-
 ## Architecture
-The app follows a serverless architecture:
+The app follows a serverless architecture: [Diagram](checklist-diagram.png)
 * DynamoDB → stores grocery items (userId as partition key, itemId as sort key)
 * Lambda functions → implement Create, Read, Update, Delete operations
 * API Gateway → exposes Lambda functions via RESTful HTTP endpoints
 * Amplify → hosts the frontend and connects to API Gateway
 * IAM roles → provide least privilege access for each Lambda function
-
-*[Diagram](checklist-diagram.png)
 
 ## Tech Stack
 * AWS Services: DynamoDB, Lambda, IAM, API Gateway, Amplify
