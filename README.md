@@ -53,6 +53,10 @@ The app follows a serverless architecture: [Diagram](checklist-diagram.png)
 * Integrate Cognito authentication for multi-user support
 * Add categories or sorting/filtering for grocery items
 * Implement dynamic frontend framework (React/Next.js) for richer UX
-
+* Add WAF and API security rules to protect endpoints
+* Build CI/CD pipeline with GitHub Actions or CodePipeline
+* Implement CloudWatch metrics, alarms, and logging dashboards
+* Add offline support or progressive web app features
+  
 ## Reflection
 Building this project gave me hands-on experience with AWS serverless services like DynamoDB, Lambda, and API Gateway. I learned how to put together end-to-end CRUD operations, troubleshoot CORS issues between the backend and frontend, and set up IAM roles with least-privilege. The result was a fully deployed web app that connects smoothly to AWS on the backend.
