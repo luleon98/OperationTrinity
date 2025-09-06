@@ -7,7 +7,7 @@ This 90s Grocery Checklist is a web-based app to add, track, update, and delete 
 * [Live Site](https://dev.d3h7hp93k3ddbs.amplifyapp.com)
 
 ## Visual Preview
-* [Webb View](checklist-web-screenshot.png)
+* [Web View](checklist-web-screenshot.png)
 * [Mobile View](checklist-mobile-screenshot.jpeg)
 
 ## Architecture
