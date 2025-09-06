@@ -13,7 +13,7 @@ This 90s Grocery Checklist is a web-based app to add, track, update, and delete 
 ## Architecture
 The app follows a serverless architecture: [Diagram](checklist-diagram.png)
 * DynamoDB → stores grocery items (userId as partition key, itemId as sort key)
-* Lambda functions → implement Create, Read, Update, Delete operations
+* Lambda functions → implement Create, Get, Update, Delete operations
 * API Gateway → exposes Lambda functions via RESTful HTTP endpoints
 * Amplify → hosts the frontend and connects to API Gateway
 * IAM roles → provide least privilege access for each Lambda function
